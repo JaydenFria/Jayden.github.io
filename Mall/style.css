@@ -1,0 +1,140 @@
+:root {
+     --aside-width: 15%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+img {
+    width:100%;
+
+}
+
+body {
+    margin: 0;  
+    display: grid;
+    grid: auto / var(--aside-width) 1fr;
+    font-family:"Comic sans MS";
+}
+
+
+aside{
+    background-color: #94AAf9;
+    
+}
+
+.aside__wrapper{
+    position: fixed;
+    width: var(--aside-width);
+}
+
+.header {
+padding:5em 0;
+}
+
+.header__logo {
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI2nb69khikOxrTNc11ovUgTGXBllOysCWWw&usqp=CAU);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.header__title{
+margin:0 auto;
+text-align: center;
+margin-top: 0.1em;
+font-size: 64px;
+font-weight: normal;
+}
+
+nav{
+    
+}
+.nav__links{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+
+.nav__link{
+   
+    text-align: center;
+}
+
+.nav__link + *{
+    padding-top: 2em;
+    position: relative;
+}
+
+.nav__link + *::before{
+ position: absolute;
+ content:"";
+ width: 65%;   
+ height: 1px;
+ background-color: black;
+ top: 1em;
+ left: 17.5%;
+ /* transform: translateX(75%); */
+}
+
+.nav__links a {
+    text-decoration: none;
+    color: inherit; 
+    font-family: 'Concert One', sans-serif;
+    font-size: 35px;
+
+   
+
+    
+}
+
+.main__heading{
+    font-size: 96px;
+    text-align: center;
+}
+
+.main__intro__text{
+font-size: 24px;
+text-align: center;
+width:80%;
+margin:0 auto;
+}
+
+.main__text {
+    text-align: center;
+    
+
+}
+
+.main__content{
+    padding: 4em;
+    gap: 4em;
+    display: flex;
+}
+
+.main__content > * {
+    flex:1 1 0;
+}
+
+.main__img__frame{
+    display: flex;
+    background-color: grey;
+    padding: 4em;
+    gap: 4em;
+}
+
+.main__img__frame img{
+    width:calc(100% / 3 - 4em);
+    /* display: none; */
+}
+
