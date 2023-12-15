@@ -7,16 +7,179 @@ main{
     background-image: linear-gradient(rgba(23, 23, 23, .5), rgba(23, 23, 23, 0.5)), url("https://www.liquidsandsolids.com/wp-content/uploads/2022/10/dreaming-of-sunset.jpg");
         
         background-size: cover;
-        height: 100vh;
+        height: 100%;   
         padding:0;
         margin:0;
+        background-attachment: fixed;
     }
 
 .arbete1 a{
-   color: #fff;
+   color: #000000;
    font-size: 85px;
 }
 
+.Rektangl1 {
+    width: 1200px;
+    height: 400px;
+    background-color: #F0E7D8;
+    border-radius: 60px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-1150px);
+}
 
+.Rektangl1:hover{
+    transform: translateX(-400px);
+}
+
+.Rektangl1::after {    
+    content: "Mall uppgift";
+    position:fixed;
+    padding-left: 450px;
+    padding-top: 30px;
+    font-size: 30px; 
+    color: #000;
+}
+
+  
+
+
+
+.Rektangl2 {
+    width: 1200px;
+   height: 400px;
+    background-color: #F0E7D8;
+    border-radius: 60px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-1150px);
+}
+
+.Rektangl2:hover{
+    transform: translateX(-400px);
+}
+
+.Rektangl2::after {    
+    content: "Uppgift2";
+    position:fixed;
+    padding-left: 450px;
+    padding-top: 30px;
+    font-size: 30px; 
+    color: #000;
+} 
+
+
+
+.Rektangl3 {
+    width: 1200px;
+   height: 400px;
+    background-color: #F0E7D8;
+    border-radius: 60px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-1150px);
+}
+
+.Rektangl3:hover{
+    transform: translateX(-400px);
+}
+
+.Rektangl3::after {    
+    content: "Uppgift3";
+    position:fixed;
+    padding-left: 450px;
+    padding-top: 30px;
+    font-size: 30px; 
+    color: #000;
+} 
+
+
+
+.Rektangl4 {
+    width: 1200px;
+   height: 400px;
+    background-color: #F0E7D8;
+    border-radius: 60px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-1150px);
+}
+
+.Rektangl4:hover{
+    transform: translateX(-400px);
+}
+
+.Rektangl4::after {    
+    content: "Uppgift4";
+    position:fixed;
+    padding-left: 450px;
+    padding-top: 30px;
+    font-size: 30px; 
+    color: #000;
+} 
+
+
+.Rektangl5 {
+    width: 1200px;
+   height: 400px;
+    background-color: #F0E7D8;
+    border-radius: 60px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-1150px);
+}
+
+.Rektangl5:hover{
+    transform: translateX(-400px);
+}
+
+.Rektangl5::after {    
+    content: "Uppgift5";
+    position:fixed;
+    padding-left: 450px;
+    padding-top: 30px;
+    font-size: 30px; 
+    color: #000;
+} 
+
+.Rektangl6 {
+    width: 1200px;
+   height: 400px;
+    background-color: #F0E7D8;
+    border-radius: 60px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-1150px);
+}
+
+.Rektangl6:hover{
+    transform: translateX(-400px);
+}
+
+.Rektangl6::after {    
+    content: "Uppgift6";
+    position:fixed;
+    padding-left: 450px;
+    padding-top: 30px;
+    font-size: 30px; 
+    color: #000;
+} 
+
+.Credits {
+    margin-top: 50px;
+    width: 2000px;
+   height: 500px;
+    background-color: #82204A;
+    position: relative;
+    }
+   
+.Credits::after {    
+    content: "jayden";
+    position:fixed;
+        padding-left: 450px;
+        padding-top: 30px;
+        font-size: 30px; 
+        color: #000;
+} 
 
 
