@@ -6,10 +6,10 @@ body{
 main{
     background-image: linear-gradient(rgba(23, 23, 23, .5), rgba(23, 23, 23, 0.5)), url("https://www.liquidsandsolids.com/wp-content/uploads/2022/10/dreaming-of-sunset.jpg");
         
-        background-size: cover;
+        background-size:cover;
         height: 100%;   
         padding:0;
-        margin:0;
+        margin: 0%;
         background-attachment: fixed;
     }
 
@@ -19,10 +19,11 @@ main{
 }
 
 .Rektangl1 {
-    width: 1200px;
-    height: 400px;
+    width: 1200px;  
+    height: 150px;
     background-color: #F0E7D8;
-    border-radius: 60px;
+    border-radius: 20px;
+    margin-bottom: 5px;
     position: relative;
     transition: all 0.3s ease-in-out;
     transform: translateX(-1150px);
@@ -47,9 +48,10 @@ main{
 
 .Rektangl2 {
     width: 1200px;
-   height: 400px;
+   height: 150px;
     background-color: #F0E7D8;
-    border-radius: 60px;
+    border-radius: 20px;
+    margin-bottom: 5px;
     position: relative;
     transition: all 0.3s ease-in-out;
     transform: translateX(-1150px);
@@ -72,9 +74,10 @@ main{
 
 .Rektangl3 {
     width: 1200px;
-   height: 400px;
+   height: 150px;
     background-color: #F0E7D8;
-    border-radius: 60px;
+    border-radius: 20px;
+    margin-bottom: 5px;
     position: relative;
     transition: all 0.3s ease-in-out;
     transform: translateX(-1150px);
@@ -97,9 +100,10 @@ main{
 
 .Rektangl4 {
     width: 1200px;
-   height: 400px;
+   height: 150px;
     background-color: #F0E7D8;
-    border-radius: 60px;
+    border-radius: 20px;
+    margin-bottom: 5px;
     position: relative;
     transition: all 0.3s ease-in-out;
     transform: translateX(-1150px);
@@ -121,9 +125,10 @@ main{
 
 .Rektangl5 {
     width: 1200px;
-   height: 400px;
+   height: 150px;
     background-color: #F0E7D8;
-    border-radius: 60px;
+    border-radius: 20px;
+    margin-bottom: 5px;
     position: relative;
     transition: all 0.3s ease-in-out;
     transform: translateX(-1150px);
@@ -144,9 +149,10 @@ main{
 
 .Rektangl6 {
     width: 1200px;
-   height: 400px;
+   height: 150px;
     background-color: #F0E7D8;
-    border-radius: 60px;
+    border-radius: 20px;
+    margin-bottom: 5px;
     position: relative;
     transition: all 0.3s ease-in-out;
     transform: translateX(-1150px);
@@ -167,7 +173,7 @@ main{
 
 .Credits {
     margin-top: 50px;
-    width: 2000px;
+    width: 1902px;
    height: 500px;
     background-color: #82204A;
     position: relative;
