@@ -4,7 +4,7 @@ body{
 
 
 main{
-    background-image: linear-gradient(rgba(23, 23, 23, .5), rgba(23, 23, 23, 0.5)), url("https://www.liquidsandsolids.com/wp-content/uploads/2022/10/dreaming-of-sunset.jpg");
+    background-image: linear-gradient(rgba(23, 23, 23, .5), rgba(23, 23, 23, 0.5)), url("https://wallpapers.com/images/hd/pixel-background-qcdekv75z2skmz1t.jpg");
         
         background-size:cover;
         height: 100%;   
@@ -34,7 +34,7 @@ main{
 }
 
 .Rektangl1::after {    
-    content: "Mall uppgift";
+    content: "Mall uppgift, tuff upggift lyssnade och skrev";
     position:fixed;
     padding-left: 450px;
     padding-top: 30px;
@@ -180,7 +180,7 @@ main{
     }
    
 .Credits::after {    
-    content: "jayden";
+    content: "";
     position:fixed;
         padding-left: 450px;
         padding-top: 30px;
