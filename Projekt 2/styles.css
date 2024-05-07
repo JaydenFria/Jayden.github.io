@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D9D9D9;       
+      
+}
+
+.Topmenu{
+    height: 70px;
+    background-color: #D9D9D9; 
+}
+
+.button{
+    height: 40px;
+    width: 80px;
+    background-color: #242424; 
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+
+.header {
+    width: 100%;
+    height: 750px;
+    background-image: url('The\ Apple\ II.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+
+}
+
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.left-images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.left-images img {
+    width: 600px;
+    height: 460px;
+    border-radius: 20px; 
+    margin-bottom: 35px;
+}
+
+.right-image img {
+    width: 1200px;
+    height: 960px;
+    border-radius: 20px; 
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 750px;
+    background-color: #474747; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.space {
+    height: 500px;
+    background-color: #D9D9D9; 
+}
+
+
+.container {
+    overflow: hidden;
+    background-color: #B1B1B1;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.darkerblock, .lighterblock {
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+}
+
+.darkerblock {
+    background-color: #414141;
+    
+}
+
+.lighterblock {
+    background-color: #B1B1B1;
+}
+
+
+
+.text {
+    text-align: center;
+    margin-bottom: 500px;   
+    font-size: xx-large;
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 500px;
+    font-size: xx-large;
+}
